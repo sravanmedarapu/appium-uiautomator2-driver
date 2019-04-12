@@ -26,7 +26,7 @@ env:
     - EMU_NAME=test
     - EMU_ABI=x86_64
     - EMU_TAG=default
-    - EMU_TARGET=android-26
+    - EMU_TARGET=android-27
     - BUILD_TOOLS=28.0.3
     - API_TARGET=android-28
     - CC=gcc-6 CXX=g++-6
