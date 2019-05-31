@@ -148,7 +148,6 @@ after_script:
     fi
 after_success:
   - if [ -n "$COVERALLS" ]; then _FORCE_LOGS=0 npm run coverage; fi
-after_failure:
   - |
     if [ "$TEST" != "unit" and ${CLOUD} = "0" ]; then
       echo -e "----LOGCAT----\n"
